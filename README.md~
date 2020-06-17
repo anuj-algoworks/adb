@@ -13,5 +13,4 @@ adb install -g test.apk
 ##record mobile screen via adb
 adb shell screenrecord /sdcard/video.mp4 
 
-## Screenshot of mobile save to desktop/laptop via adb
-adb exec-out screencap -p > screen.png
+## Screenshot of mobile save to desktop/laptop via and save in your desktop/laptop
