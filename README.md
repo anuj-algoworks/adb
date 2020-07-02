@@ -15,3 +15,15 @@ adb shell screenrecord /sdcard/video.mp4
 
 ### screenshot of mobile save to desktop/laptop via adb
 adb exec-out screencap -p > screen.png
+
+
+# GIT
+## to change commit message
+ 1. On the command line, navigate to the repository that contains the commit you want to amend.
+ 2. Type git commit --amend and press Enter.
+ 3. In your text editor, edit the commit message, and save the commit.
+
+
+
+
+
