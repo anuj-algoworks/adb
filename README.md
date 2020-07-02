@@ -18,7 +18,7 @@ adb exec-out screencap -p > screen.png
 
 
 # GIT
-## to change commit message
+## to change commit message([link to git!](https://docs.github.com/en/github/committing-changes-to-your-project/changing-a-commit-message))
  1. On the command line, navigate to the repository that contains the commit you want to amend.
  2. Type git commit --amend and press Enter.
  3. In your text editor, edit the commit message, and save the commit.
