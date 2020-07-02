@@ -16,6 +16,9 @@ adb shell screenrecord /sdcard/video.mp4
 ### screenshot of mobile save to desktop/laptop via adb
 adb exec-out screencap -p > screen.png
 
+### switch off device via adb
+adb shell reboot -p
+
 
 # GIT
 ## to change commit message([link to git!](https://docs.github.com/en/github/committing-changes-to-your-project/changing-a-commit-message))
