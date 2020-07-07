@@ -19,6 +19,9 @@ adb exec-out screencap -p > screen.png
 ### switch off device via adb
 adb shell reboot -p
 
+### show recent app via adb
+adb shell input keyevent KEYCODE_APP_SWITCH
+
 
 # GIT
 ## to change commit message([link to git!](https://docs.github.com/en/github/committing-changes-to-your-project/changing-a-commit-message))
